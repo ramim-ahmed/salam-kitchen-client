@@ -12,7 +12,7 @@ const MenuItem = () => {
     const [addProduct, setAddProduct] = useState(false)
 
     useEffect( () => {
-        fetch('http://localhost:5000/cartItem?email='+loggedInUser.email)
+        fetch('https://warm-woodland-50987.herokuapp.com/cartItem?email='+loggedInUser.email)
         .then(res => res.json())
         .then( data => {
             setOrder(data)
@@ -20,7 +20,7 @@ const MenuItem = () => {
     }, [loggedInUser, setOrder])
 
     useEffect( () => {
-        fetch(`http://localhost:5000/menuItem/${id}`)
+        fetch(`https://warm-woodland-50987.herokuapp.com/menuItem/${id}`)
         .then( res => res.json())
         .then( data => {
             setMenuItem(data)
