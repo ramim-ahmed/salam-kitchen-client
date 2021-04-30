@@ -16,16 +16,6 @@ const Login = () => {
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };
 
-    const setUserToken = () => {
-        firebase.auth().currentUser.getIdToken(/* forceRefresh */ true)
-        .then(function(idToken) {
-          sessionStorage.setItem('token', idToken)
-         })
-        .catch(function(error) {
-            
-        });
-    }
-
     const handleGoogle = () => {
 
         const googleProvider = new firebase.auth.GoogleAuthProvider();
@@ -39,7 +29,6 @@ const Login = () => {
                            email : email
                        }
                         setLoggedInUser(newUser);
-                        setUserToken();
                         history.replace(from)
 
                     }).catch((error) => {
