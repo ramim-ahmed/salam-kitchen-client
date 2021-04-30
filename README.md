@@ -31,11 +31,11 @@
 
 <h3>Screenshot</h3>
   
-  <img height="300px" src="./src/screnshott/salam-kichen.png" alt="ss" /> 
+  <img height="300px" src="./src/screnshott/salam-kichen-1.png" alt="ss" /> 
   
   <div></div> <br>
   
-  <img height="300px" src="./src/screnshott/salam-kichen-1.png" alt="ss" /> 
+  <img height="300px" src="./src/screnshott/salam-kichen.png" alt="ss" /> 
   
   <div></div> <br>
   
