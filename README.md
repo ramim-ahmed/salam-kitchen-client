@@ -1,4 +1,4 @@
-# Salam-Kichen
+# Salam-Kitchen
 
 <h3>Overview</h3>
 <p>This is a resturent food services projects</p>
@@ -31,12 +31,16 @@
 
 <h3>Screenshot</h3>
   
-  <img height="300px" src="./src/screenshot/percare-1.png" alt="ss" /> 
+  <img height="300px" src="./src/screnshott/salam-kichen.png" alt="ss" /> 
   
   <div></div> <br>
   
-  <img height="300px" src="./src/screenshot/percare-2.png" alt="ss" /> 
+  <img height="300px" src="./src/screnshott/salam-kichen-1.png" alt="ss" /> 
   
   <div></div> <br>
   
-  <img height="300px" src="./src/screenshot/pet-care-2.png" alt="ss" />
+  <img height="300px" src="./src/screnshott/salam-kichen-2.png" alt="ss" />
+
+  <div></div> <br>
+  
+  <img height="300px" src="./src/screnshott/salam-kichen-3.png" alt="ss" />
